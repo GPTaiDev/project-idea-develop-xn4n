@@ -1,0 +1,30 @@
+.habit-list {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.habit-list input {
+  margin-right: 10px;
+}
+
+.habit-list button {
+  padding: 5px 10px;
+}
+
+.habit-list ul {
+  margin-top: 20px;
+}
+
+.habit-list li {
+  background: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.habit-list li.completed {
+  background: #e6ffe6;
+}
